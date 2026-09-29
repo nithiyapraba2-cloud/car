@@ -1,0 +1,24 @@
+{
+  "name": "car",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run start:dev --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nithiyapraba2-cloud/car.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nithiyapraba2-cloud/car/issues"
+  },
+  "homepage": "https://github.com/nithiyapraba2-cloud/car#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
